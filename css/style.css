@@ -1,0 +1,29 @@
+img{
+    width: 800px;
+    height: 600px;
+    object-fit: scale-down;
+}
+
+/* .imagenesLargas{
+    width: 600px;
+    width: 600px;
+    object-fit: contain;
+} */
+
+#textoNegro{
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+.dynamic-text {
+    mix-blend-mode: difference; /* Se adapta al fondo */
+    color: white;
+    text-shadow: 20px 20px 80px rgb(255, 255, 255); 
+    position: fixed;
+    top: 25%;
+    left: 10%
+  }
